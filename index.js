@@ -1,6 +1,8 @@
-import { basename, extname } from "path";
-import template from "babel-template";
-import * as t from "babel-types";
+const {basename, extname} = require('path');
+
+const template = require('babel-template').default;
+
+const t = require('babel-types');
 
 const buildRequire = template(`
   require($0);
