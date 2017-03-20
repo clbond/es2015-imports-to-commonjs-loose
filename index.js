@@ -1,6 +1,6 @@
 const {basename, extname} = require('path');
 
-const template = require('babel-template').default;
+const template = require('babel-template');
 
 const t = require('babel-types');
 
@@ -167,7 +167,7 @@ module.exports = {
             let hasExports = false;
             let hasImports = false;
   
-            const body: Array<Object> = path.get("body");
+            const body = path.get("body");
             const imports = Object.create(null);
             const exports = Object.create(null);
   
