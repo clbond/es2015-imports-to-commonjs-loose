@@ -1,11 +1,11 @@
 {
   "name": "es2015-imports-to-commonjs-loose",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Fork of babel-plugin-transform-es2015-modules-commonjs which allows overwriting symbols for projects with broken barrel files (like @angular/material)",
   "main": "index.js",
   "scripts": {},
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "babel-template": "6.23.0",
     "babel-types": "6.23.0"
